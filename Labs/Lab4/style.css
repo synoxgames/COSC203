@@ -1,0 +1,112 @@
+* {
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+h1 {
+    color: rgb(198, 92, 92);
+}
+
+h2 {
+    color: rgb(223, 92, 92);
+}
+
+p {
+    color: rgb(206, 162, 162);
+}
+
+a {
+    color: rgb(229, 141, 141);
+}
+
+body {
+    background: rgb(39, 31, 31);
+}
+
+header {
+    background: rgb(69, 59, 59);
+    position: relative;
+    height: 10%;
+}
+
+nav {
+    background: rgb(73, 59, 59);
+}
+
+main {
+    background: rgb(62, 54, 54);
+}
+
+footer {
+    background: rgb(32, 1, 1);
+}
+
+figure {
+    display: inline-block;
+}
+
+figcaption {
+    color: aliceblue;
+    font-size: 10pt;
+}
+
+.navigation {
+    color: rgb(185, 198, 88);
+    font-size: 24pt;
+    font-weight: 100;
+}
+
+.name {
+    color: rgb(185, 173, 72);
+    font-size: 32pt;
+    font-weight: 763;
+}
+
+.story-time {
+    color: rgb(179, 176, 91);
+    font-size: 21pt;
+    font-weight: lighter;
+}
+
+.sick-photo {
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(113, 65, 65);
+    width: 25%;
+    height: 25%;
+    border-radius: 10%;
+    display: block;
+    box-shadow: -10px 10px 50px 1px rgb(48, 10, 10);
+}
+
+#polly-img-one {
+    filter: blur(21px);
+}
+
+#polly-img-two {
+    filter: invert() brightness(10);
+}
+
+#polly-img-three {
+    filter: saturate(10) blur(1px);
+}
+
+#polly-img-four {
+    filter: hue-rotate(30deg);
+}
+
+#polly-img-five {
+    filter: opacity(10%) brightness(10%);
+}
+
+#polly-img-six {
+    filter:grayscale();
+}
+
+#polly-img-seven {
+    filter: blur(3px) invert() hue-rotate(90deg);
+}
+
+#polly-img-eight {
+    filter: contrast(100);
+}
