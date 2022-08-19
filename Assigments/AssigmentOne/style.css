@@ -1,0 +1,68 @@
+body {
+    background-color: #253925;
+}
+
+header h1, footer {
+    color: #8FD5A6;
+    background-color: #0c8346;
+    text-align: center;
+    padding: 15px;
+    border: 5px solid #0D5D56;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 3px #317b22;
+}
+
+.search-panel {
+    color: #8FD5A6;
+    background-color: #0c8346;
+    border: 5px solid #0D5D56;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 3px #317b22;
+    padding: 10px;
+    width: 35%;
+    height: 50%;
+    margin-bottom: 25px;
+}
+
+.search-bar {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background-color: #133b13;
+    border: 2.5px solid limegreen;
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
+    transition: box-shadow 0.1s ease-in-out;
+}
+
+.search-bar:focus {
+    border: 2.5px solid red;
+    box-shadow: 2.5px solid red;
+}
+
+.search-bar:hover {
+    border: 2.5px solid darkgreen;
+    box-shadow: 0px 0px 10px 3px #63ad63;
+    transition: box-shadow 0.1s ease-in-out;
+}
+
+#status {
+    width: 200px;
+    margin-top: 5px;
+    box-shadow: none;
+    transition: box-shadow 0.1s ease-in-out;
+    height: 25px;
+    border-radius: 10px;
+    border: 2.5px solid limegreen;
+}
+
+#status:hover {
+    box-shadow: 0px 0px 10px 3px #72c98f;
+    transition: box-shadow 0.1s ease-in-out;
+}
+/*
+0c8346
+
+0D5D56
+*/
